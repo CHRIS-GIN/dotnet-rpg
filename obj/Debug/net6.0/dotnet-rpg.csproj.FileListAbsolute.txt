@@ -25,3 +25,5 @@
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/obj/Debug/net6.0/dotnet-rpg.pdb
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/obj/Debug/net6.0/dotnet-rpg.genruntimeconfig.cache
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/obj/Debug/net6.0/ref/dotnet-rpg.dll
+/Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/AutoMapper.dll
+/Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

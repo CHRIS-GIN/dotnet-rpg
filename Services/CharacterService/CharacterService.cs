@@ -31,7 +31,7 @@ namespace dotnet_rpg.Services.CharacterService
         {
             var serviceResponse = new ServiceResponse<List<GetCharacterDto>>();
             Character character = _mapper.Map<Character>(newCharacter);
-            _context.Characters.Add(newCharacter);
+            _context.Characters.Add(character);
             await _context.SaveChangesAsync();
             //  character.Id = characters.Max(c => c.Id) + 1;
             serviceResponse.Data = await _context.Characters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToListAsync();
@@ -46,7 +46,7 @@ namespace dotnet_rpg.Services.CharacterService
             {
                 Character character = await _context.Characters.FirstAsync(c => c.Id == id);
                 _context.Characters.Remove(character);
-                await _context.Characters.SaveChangesAsync();
+                await _context.SaveChangesAsync();
 
                 response.Data = _context.Characters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToList();
             }

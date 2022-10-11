@@ -8,10 +8,14 @@ namespace dotnet_rpg.Data
 {
     public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions<DbContext> options) : base(options)
+        public DataContext()
+        {
+            
+        }
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
 
         }
-        public DbSet<Character> characters { get; set; }
+        public DbSet<Character> characters => Set<Character>();
     }
 }

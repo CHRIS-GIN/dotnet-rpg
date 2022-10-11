@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JnKo+zyvr4yv5f+aeqmOiEEZ3ZyCtIxQCsPCBja1uqsh9vn4vj68qXlCwafAIWRV3y3ZvmPjUTm3GzlMXvNyCA==",
+  "dgSpecHash": "3YG887cEX1B129MozcIAMyF0SZXBmU13xn0Af+O8TC7IDIr7obtYqBLMmilDQHlBrM0HplOXRllOF41VQ7imPw==",
   "success": true,
   "projectFilePath": "/Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/dotnet-rpg.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,8 @@
     "/Users/zhanshuo.qithoughtworks.com/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/zhanshuo.qithoughtworks.com/.nuget/packages/mysql.data/8.0.30/mysql.data.8.0.30.nupkg.sha512",
     "/Users/zhanshuo.qithoughtworks.com/.nuget/packages/mysql.entityframeworkcore/6.0.4/mysql.entityframeworkcore.6.0.4.nupkg.sha512",
+    "/Users/zhanshuo.qithoughtworks.com/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
+    "/Users/zhanshuo.qithoughtworks.com/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.2/pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "/Users/zhanshuo.qithoughtworks.com/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
     "/Users/zhanshuo.qithoughtworks.com/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/zhanshuo.qithoughtworks.com/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

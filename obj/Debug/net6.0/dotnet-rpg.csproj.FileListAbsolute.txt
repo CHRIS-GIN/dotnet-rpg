@@ -39,7 +39,6 @@
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/MySql.Data.dll
-/Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/Ubiety.Dns.Core.dll
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/ZstdNet.dll
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/MySql.EntityFrameworkCore.dll
 /Users/zhanshuo.qithoughtworks.com/Downloads/TW_work/c#-learning/dotnet-rpg/bin/Debug/net6.0/MySqlConnector.dll

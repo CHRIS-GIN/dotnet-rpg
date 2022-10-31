@@ -27,5 +27,12 @@ namespace dotnet_rpg.Data
         {
             throw new NotImplementedException();
         }
+        private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
+        {
+            using (var hamc = new System.Security.Cryptography.HMACSHA512()){
+                passwordSalt=hamc.Key;
+                passwordHash=hamc.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+            }
+        }
     }
 }

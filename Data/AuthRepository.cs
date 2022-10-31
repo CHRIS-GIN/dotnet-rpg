@@ -17,17 +17,22 @@ namespace dotnet_rpg.Data
         public async Task<ServiceResponse<string>> Login(string username, string password)
         {
             var response = new ServiceResponse<string>();
-            var user = _context.Users.FirstOrDefault(u=>u.Username.ToLower().Equals(username.ToLower()));
-            if(user==null){
-                response.Success=false;
-                response.Message="User not found.";
+            var user = _context.Users.FirstOrDefault(u => u.Username.ToLower().Equals(username.ToLower()));
+            if (user == null)
+            {
+                response.Success = false;
+                response.Message = "User not found.";
                 return response;
-            }else if(!VerifyPasswordHash(password,user.PasswordHash,user.PasswordSalt)){
-                response.Success=false;
-                response.Message="User not found.";
+            }
+            else if (!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
+            {
+                response.Success = false;
+                response.Message = "User not found.";
                 return response;
-            }else{
-                response.Data=user.Id.ToString();
+            }
+            else
+            {
+                response.Data = user.Id.ToString();
                 return response;
             }
         }
